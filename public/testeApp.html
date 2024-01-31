@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="canonical" href="https://www.chevrolet.com.co">
+	<link rel="stylesheet" href="testeApp.css">
+    <title>Chevrolet | Sitio Web Oficial </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            overflow-x: hidden;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 1em;
+            margin: 0 1em;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+        }
+
+        section {
+            padding: 0px;
+            background: url('https://s3-sa-east-1.amazonaws.com/i.imgtake.takenet.com.br/yp1dgs3k.pai/imgmain.pn') center/cover no-repeat;
+            color: #fff; 
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Chevrolet | Sitio Web Oficial </h1>
+        <p>Evolução em todos os aspectos</p>
+    </header>
+
+    <nav>
+        <a href="#">Veículos</a>
+        <a href="#">Comprar</a>
+        <a href="#">Serviços</a>
+        <a href="#">Concessionárias</a>
+		<a href="pagEsp.html">ES</a>
+		<a href="testeApp.html">PT</a>
+    </nav>
+
+    <section>
+		<center><img src="imgmain.png" width="2200px" height="auto";></center>
+    </section>
+	
+	<script src="https://unpkg.com/blip-chat-widget" type="text/javascript"></script>
+	<script>
+		(function () {
+			window.onload = function () {
+				new BlipChat()
+                .withAppKey('cG9vbDExOjJiNjRmYWRkLWVjOGYtNDdlOS04ODcxLWRlYjc0NDdhYTZhZQ==')
+                .withButton({"color":"#0096fa","icon":""})
+                .withCustomCommonUrl('https://pool-pocs.chat.blip.ai/')
+                .build();
+			}
+		})();
+	</script>
+</body>
+</html>
